@@ -1,0 +1,73 @@
+body {
+    display: flex;
+    background-color: lightblue;
+
+    flex-flow: column wrap;
+    align-content: center;
+    padding: 5px;
+    margin: 5px;
+}
+
+.blog {
+    display: flex;
+    width: 500px;
+    align-content: left;
+    flex-flow: column wrap;
+    background-color: beige;
+    font-family: Arial;
+    border: black 2px solid;
+    box-shadow: 5px;
+    margin-top: 10px;
+    padding-left: 20px
+
+}
+
+.info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: left;
+    padding-right: 10px;
+
+}
+
+.buttons {
+    display: flex;
+    width: 50px;
+    height: 50px;
+
+}
+
+.buttons img:hover{
+    border: solid red;
+}
+#deleteimage {
+    width: 20px;
+    height: 20px;
+    margin: 3px 3px;
+}
+
+#editimage {
+    width: 20px;
+    height: 20px;
+    margin: 3px 3px;
+}
+
+.blog h2 {
+    color: midnightblue;
+    font-weight: bold;
+}
+
+h2:hover {
+    color: darkmagenta;
+}
+
+.info h4 {
+    color: black;
+    font-style: italic;
+    padding-left: 2px;
+}
+
+.info h5 {
+    grid-area: 1 / 2 / span 1 / span 1;
+    padding-right: 5px;
+}
