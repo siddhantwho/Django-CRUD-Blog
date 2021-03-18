@@ -19,4 +19,4 @@ python manage.py runserver
 This command should be familiar to those who have worked with Django's web framework before. Navigate to the host/blogapp/ to see the homepage for the blog CRUD application.
 
 ![List View](blogproj/static/sclist.png)
-![Detailed View](blogproj/static/sclist.png)
+![Detailed View](blogproj/static/scview.png)
