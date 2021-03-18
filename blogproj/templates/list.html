@@ -34,7 +34,12 @@
         </div>
     </div>
     {% endfor %}
-    
+    <div class="new">
+        <h4> CREATE </h4>
+        <a href="{% url "blog_create" %}">
+            <img src="{% static 'edit.png' %}"id="newimage">
+        </a>
+    </div>    
 
 </body>
 
